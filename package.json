@@ -4,7 +4,8 @@
   "description": "A simple ExpressJS server ready to be deployed to Zeit Now v2",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "deploy": "now && now alias"
   },
   "author": "",
   "license": "ISC",
