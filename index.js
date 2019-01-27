@@ -1,8 +1,10 @@
 const port = process.env.PORT || 3000
+const morgan = require('morgan')
 
 var express = require('express')
 var app = express()
 app.use(express.json())
+app.use(morgan('dev'))
 
 app.listen(port, err => {
   if (err) throw err
