@@ -1,0 +1,14 @@
+{
+  "name": "express-zeit-now-v2",
+  "version": "0.1.0",
+  "description": "A simple ExpressJS server ready to be deployed to Zeit Now v2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
