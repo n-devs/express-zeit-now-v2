@@ -22,6 +22,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^3.0.1",
+    "twin-bcrypt": "^2.1.1"
   }
 }
